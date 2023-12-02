@@ -167,6 +167,17 @@ header {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-align: center;
+}
+
+.news-card img {
+    height: 200px;
+}
+
+.news-card a {
+    color: inherit; /* Usa a cor padrão do elemento pai (normalmente preto ou azul) */
+    text-decoration: none;
 }
 
 .news-card img {
@@ -272,4 +283,34 @@ footer {
     .news-card {
         max-width: 100%; /* Garante que as notícias ocupem toda a largura */
     }
+}
+
+
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    color: #333;
+}
+
+.article h3 {
+    color: #555;
+}
+
+.article p {
+    color: #777;
+    line-height: 1.4;
+    margin-bottom: 15px;
 }
