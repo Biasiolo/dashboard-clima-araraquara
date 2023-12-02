@@ -181,3 +181,94 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .container-widget, .second-container, .news-section {
+        grid-template-columns: 1fr; /* Altera para uma única coluna em dispositivos menores */
+        gap: 10px; /* Adapta o espaçamento entre os elementos */
+    }
+    body {
+        margin: 12px
+    }
+
+    .container-widget {
+        width: 60vw;
+        max-width: 90vw; /* Defina a largura máxima desejada */
+        margin: 0 auto; /* Isso centraliza o elemento na tela horizontalmente */
+        text-align: center;
+        display: flex;
+        flex-direction: column; /* Garante que os elementos estejam empilhados verticalmente */
+        align-items: center; /* Centraliza os itens na direção transversal (vertical neste caso) */
+    }
+    
+
+    .video-tv {
+        height: 300px; /* Ajusta a altura do bloco de vídeo para dispositivos menores */
+    }
+
+    header {
+        text-align: center; /* Centraliza o texto do cabeçalho em dispositivos menores */
+        overflow: hidden; /* Evita que o botão saia da tela */
+    }
+
+    h1 {
+        margin-bottom: 10px; /* Adapta o espaçamento abaixo do H1 */
+    }
+
+    .scroll-container {
+
+        margin-left: 60vw;
+
+    }
+    
+    #scrollDownButton {
+        font-size: 16px;
+        margin: 3px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 6px 10px;
+        border: 2px solid #fff; /* Ajuste conforme necessário */
+        border-radius: 8px;
+        transition: background-color 0.3s, transform 0.3s;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+        &:active {
+            transform: scale(0.98);
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+        }
+    }
+    .second-container {
+        width: 100vw;
+        max-width: 100%; /* Defina a largura máxima desejada */
+        margin: 0 auto; /* Isso centraliza o elemento na tela horizontalmente */
+        text-align: center;
+        display: flex;
+        flex-direction: column; /* Garante que os elementos estejam empilhados verticalmente */
+        align-items: center; /* Centraliza os itens na direção transversal (vertical neste caso) */
+        overflow: hidden;
+        
+    }
+
+    #section3 {
+        flex-direction: column; /* Altera para uma única coluna em dispositivos menores */
+        align-items: center; /* Centraliza os elementos na coluna */
+        margin: 10px; /* Adapta a margem da seção */
+    }
+
+    #section3 .ad-space {
+        width: 100%; /* Ocupa toda a largura em dispositivos menores */
+        margin-bottom: 10px; /* Adapta o espaçamento entre os elementos */
+    }
+
+    #section3 iframe {
+        width: 100%; /* Ocupa toda a largura em dispositivos menores */
+    }
+
+    .news-section {
+        justify-content: center; /* Centraliza as notícias na coluna */
+    }
+
+    .news-card {
+        max-width: 100%; /* Garante que as notícias ocupem toda a largura */
+    }
+}
