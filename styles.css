@@ -21,7 +21,7 @@ header {
 .banner, .banner1 {
     display: block;
     padding: 12px; /* Ajuste conforme necessário */
-    background-color: rgba(201, 194, 194, 0.4);
+    background-color: rgba(160, 160, 160, 0.4);
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -188,7 +188,7 @@ footer {
         gap: 10px; /* Adapta o espaçamento entre os elementos */
     }
     body {
-        margin: 12px
+        margin: 0 8px;
     }
 
     .container-widget {
@@ -199,6 +199,7 @@ footer {
         display: flex;
         flex-direction: column; /* Garante que os elementos estejam empilhados verticalmente */
         align-items: center; /* Centraliza os itens na direção transversal (vertical neste caso) */
+        margin-top: 12px;
     }
     
 
