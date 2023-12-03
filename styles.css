@@ -8,10 +8,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    margin: 0 8px;
 }
 
 header {
-    background-color: rgba(91, 238, 243, 0.4);
+    background-color: rgba(5, 5, 5, 0.3);
     padding: 1rem;
     text-align: left;
     box-shadow: 0 0 5px rgba(248, 248, 248, 0.2);
@@ -21,7 +22,7 @@ header {
 .banner, .banner1 {
     display: block;
     padding: 12px; /* Ajuste conforme necessário */
-    background-color: rgba(160, 160, 160, 0.4);
+    background-color: rgba(248, 248, 248, 0.2);
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -35,23 +36,23 @@ header {
 
 .scroll-container {
     padding: 1px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(248, 248, 248, 0.2);
     text-align: center;
     width: max-content;
     justify-content: center;
     margin-left: 85vw;
     margin-bottom: 12px;
     border-radius: 8px;
-    border: 1px solid #fff; /* Ajuste conforme necessário */
+
 }
 
 #scrollDownButton {
-    font-size: 16px;
-    margin: 3px;
+    font-size: 12px;
+    margin: 1px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 6px 10px;
-    border: 2px solid #fff; /* Ajuste conforme necessário */
+    background-color: rgba(248, 248, 248);
+    padding: 6px 12px;
+    border: 1px solid black; /* Ajuste conforme necessário */
     border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -72,7 +73,7 @@ header {
 }
 
 .widget {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(248, 248, 248, 0.2);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -92,7 +93,7 @@ header {
     justify-content: center;
     text-align: center;
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(248, 248, 248, 0.2);
     height: 16em;
     border-radius: 8px;
     margin: 0.5em; /* Ajuste conforme necessário */
@@ -167,7 +168,7 @@ header {
 }
 
 .news-card {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(248, 248, 248, 0.2);
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -192,7 +193,7 @@ header {
 
 /* Estilos para o Footer */
 footer {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(248, 248, 248, 0.2);
     text-align: center;
     padding: 10px;
 }

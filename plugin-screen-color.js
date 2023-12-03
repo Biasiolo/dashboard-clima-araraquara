@@ -48,14 +48,7 @@
         return this.each(function () {
             var $this = $(this);
 
-            $this.css({
-                fontSize: "12px",
-                margin: "3px",
-                cursor: "pointer",
-                border: "1px solid white",
-                borderRadius: "5px",
-                transition: "background-color 0.3s, transform 0.3s",
-            });
+            
 
             $this.on("click", function () {
                 changeColor();
