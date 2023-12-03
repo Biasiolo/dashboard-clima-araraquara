@@ -4,12 +4,12 @@
             colors: [
                 { name: "blue", color: "rgb(43, 174, 226)" },
                 { name: "yellow", color: "rgb(177, 226, 43)" },
-                { name: "white", color: "rgb(255, 255, 225)" },
+                { name: "white", color: "rgb(255, 255, 245)" },
                 { name: "red", color: "rgb(214, 40, 40)" },
                 { name: "black", color: "#080808" },
             ],
 
-            initialColor: "white", // Adiciona uma nova opção para a cor inicial
+            initialColor: "black", // Adiciona uma nova opção para a cor inicial
 
             textColors: [ // Adicione um array de cores de texto de contraste predefinidas
                 { name: "blue", color: "#66250B" },
