@@ -122,13 +122,17 @@ header {
 
 .ad-space-left {
     flex-direction: column;
+    justify-content: center;
+
 }
 
-#section3 iframe {
-    width: calc(60% - 20px);
-    height: 770px;
+.info-dia {
+    max-width: 100%;
+    max-height: 580px;
     border: none;
+    
 }
+
 
 #section3 a {
     display: block;
@@ -194,7 +198,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    .container-widget, .second-container, .news-section {
+    .container-widget, .second-container, .news-section, #section3{
         grid-template-columns: 1fr; /* Altera para uma única coluna em dispositivos menores */
         gap: 10px; /* Adapta o espaçamento entre os elementos */
     }
@@ -249,7 +253,7 @@ footer {
             box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
         }
     }
-    .second-container {
+    .second-container{
         width: 100vw;
         max-width: 100%; /* Defina a largura máxima desejada */
         margin: 0 auto; /* Isso centraliza o elemento na tela horizontalmente */
@@ -270,6 +274,12 @@ footer {
     #section3 .ad-space {
         width: 100%; /* Ocupa toda a largura em dispositivos menores */
         margin-bottom: 10px; /* Adapta o espaçamento entre os elementos */
+        
+    }
+
+    .elfsight-app-0a8d64d8-6709-4592-93bd-b787bd5f187a {
+        margin-top: 1rem;
+        padding: 4rem;
     }
 
     #section3 iframe {

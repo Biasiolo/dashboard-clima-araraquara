@@ -15,7 +15,7 @@
                 { name: "blue", color: "#66250B" },
                 { name: "yellow", color: "#080808" },
                 { name: "white", color: "#020827" },
-                { name: "red", color: "#D9FEBE" },
+                { name: "red", color: "#fdf5e6" },
                 { name: "black", color: "#fff" },
             ],
         }, options);
