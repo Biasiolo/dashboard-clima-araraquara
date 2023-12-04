@@ -37,14 +37,15 @@ header {
 }
 
 .scroll-container {
-    padding: 1px;
+
     background-color: rgba(248, 248, 248, 0.2);
     text-align: center;
     width: max-content;
     justify-content: center;
     margin-left: 85vw;
     margin-bottom: 12px;
-    border-radius: 8px;
+    border-radius: 5px;
+    align-items: center;
 
 }
 
@@ -52,12 +53,14 @@ header {
     font-size: 12px;
     margin: 1px;
     cursor: pointer;
-    background-color: rgba(248, 248, 248);
-    padding: 6px 12px;
-    border: 1px solid black;
-    border-radius: 8px;
+    background-color: rgb(143, 141, 141, 0.2);
+    padding: 4px 12px;
+    border: 1px solid rgb(58, 56, 56, 0.4);
+    border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-weight:700;
+    align-items: center;
 
     &:active {
         transform: scale(0.98);
