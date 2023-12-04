@@ -9,7 +9,7 @@
                 { name: "black", color: "#080808" },
             ],
 
-            initialColor: "black", // Adiciona uma nova opção para a cor inicial
+            initialColor: "red", // Adiciona uma nova opção para a cor inicial
 
             textColors: [ // Adicione um array de cores de texto de contraste predefinidas
                 { name: "blue", color: "#66250B" },
