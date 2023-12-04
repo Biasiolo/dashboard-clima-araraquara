@@ -47,9 +47,6 @@
 
         return this.each(function () {
             var $this = $(this);
-
-            
-
             $this.on("click", function () {
                 changeColor();
             });
